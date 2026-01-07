@@ -36,7 +36,7 @@ This repository contains the complete analysis pipeline that generates **10 tabl
 
 ---
 
-## 📊 Sample Results
+## Sample Results
 
 ### Clustering Analysis
 ```
@@ -325,7 +325,7 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 📝 Citation
+## Citation
 
 If you use this code in your research, please cite:
 
@@ -341,7 +341,7 @@ If you use this code in your research, please cite:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -376,4 +376,4 @@ in the Software without restriction...
 
 ---
 
-**Last Updated**: 2026-01-07 | **Version**: 1.0.0 | **Status**: Production Ready ✅
+**Last Updated**: 2026-01-07 | **Version**: 1.0.0 | **Status**: Production Ready 
