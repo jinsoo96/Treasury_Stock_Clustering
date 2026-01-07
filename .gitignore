@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files - Source data not included in repository
+03_Source_Data/*.xlsx
+03_Source_Data/*.xls
+03_Source_Data/*.csv
+
+# Output data files - Results not included
+02_Paper_Results/output_data/*.csv
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Output files (optional - uncomment if you don't want to commit outputs)
+# 02_Paper_Results/figures/*.png
+# 02_Paper_Results/figures/*.jpg
