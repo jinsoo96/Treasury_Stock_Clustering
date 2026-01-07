@@ -43,6 +43,7 @@ Thumbs.db
 desktop.ini
 
 # Data files - Source data not included in repository
+# Ignore only Excel and CSV files in 03_Source_Data, but allow other files (txt, md, json, etc.)
 03_Source_Data/*.xlsx
 03_Source_Data/*.xls
 03_Source_Data/*.csv
