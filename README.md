@@ -306,19 +306,6 @@ models['SVM'] = SVC(random_state=0)
 
 ---
 
-## 📊 Performance
-
-| Metric | Value |
-|--------|-------|
-| **Data Loading** | ~5 seconds |
-| **Preprocessing** | ~2 seconds |
-| **Clustering** | ~10 seconds |
-| **ML Training** | ~30 seconds |
-| **Feature Analysis** | ~20 seconds |
-| **Total Runtime** | **~3 minutes** |
-
----
-
 ## Contributing
 
 Contributions are welcome! Here's how you can help:
@@ -410,21 +397,6 @@ in the Software without restriction...
 - [Corporate Finance Analysis Toolkit](https://github.com/example/toolkit)
 - [Korean Stock Market Data](https://github.com/example/krx-data)
 - [ML for Finance](https://github.com/example/ml-finance)
-
----
-
-## Educational Use
-
-This repository is suitable for:
-
-- **Learning** machine learning in finance
-- **Teaching** clustering and classification
-- **Research** on corporate behavior
-- **Practice** data science workflows
-
----
-
-
 
 ---
 
