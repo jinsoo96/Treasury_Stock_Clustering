@@ -23,10 +23,10 @@ This folder contains the final analysis code that generates all paper results.
 
 ---
 
-### 📄 BACKUP_Original_fincode_formerged_2023-12-07.ipynb
-**Original analysis code (backup only)**
+### 📄 Archive_Original_fincode_merged_2023-12-07.ipynb
+**Original analysis code (archived)**
 
-- **Purpose**: Historical backup of the original analysis
+- **Purpose**: Historical archive of the original analysis
 - **Structure**: 137 cells (61 executed)
 - **Status**: Original version, contains development artifacts
 - **Use case**: Reference for development history
@@ -39,8 +39,8 @@ This folder contains the final analysis code that generates all paper results.
 
 ---
 
-### 📄 BACKUP_Development_v1_2023-11-09.ipynb
-**Development version 1 (historical reference)**
+### 📄 Archive_Development_v1_2023-11-09.ipynb
+**Development version 1 (archived)**
 
 - **Date**: November 9, 2023
 - **Original file**: 11_6.ipynb
@@ -55,8 +55,8 @@ This folder contains the final analysis code that generates all paper results.
 
 ---
 
-### 📄 BACKUP_Development_v2_2023-11-09.ipynb
-**Development version 2 (historical reference)**
+### 📄 Archive_Development_v2_2023-11-09.ipynb
+**Development version 2 (archived)**
 
 - **Date**: November 9, 2023
 - **Original file**: 11_7.ipynb
@@ -78,8 +78,8 @@ This folder contains the final analysis code that generates all paper results.
 | **Reproduce paper results** | Final_Paper_Analysis... | ✅ Clean, documented, complete |
 | **Understand methodology** | Final_Paper_Analysis... | ✅ Clear structure, English headers |
 | **Modify analysis** | Final_Paper_Analysis... | ✅ Minimal cells, easy to change |
-| **Check original code** | BACKUP_Original... | Reference only |
-| **Study development** | BACKUP_Development... | Historical interest only |
+| **Check original code** | Archive_Original... | Reference only |
+| **Study development** | Archive_Development... | Historical interest only |
 
 **Bottom line: Use `Final_Paper_Analysis_10Tables_5Figures.ipynb` for everything.**
 
@@ -219,7 +219,7 @@ stratify = True         # Stratified sampling
 
 ## 📝 File Comparison
 
-| Metric | Final | BACKUP_Original | BACKUP_Dev_v1 | BACKUP_Dev_v2 |
+| Metric | Final | Archive_Original | Archive_Dev_v1 | Archive_Dev_v2 |
 |--------|-------|-----------------|---------------|---------------|
 | **Cells** | 52 | 137 | 72 | 69 |
 | **Code cells** | 41 | 61 | 37 | 36 |
@@ -237,8 +237,8 @@ stratify = True         # Stratified sampling
 Check data file paths in Cell 0:
 ```python
 # May need to adjust to:
-df_kospi = pd.read_excel('../03_Source_Data/코스피 자기주식취득및처분.xlsx')
-df_kosdaq = pd.read_excel('../03_Source_Data/코스닥 자기주식취득및처분.xlsx')
+df_kospi = pd.read_excel('../03_Source_Data/KOSPI_Stock_Buyback.xlsx')
+df_kosdaq = pd.read_excel('../03_Source_Data/KOSDAQ_Stock_Buyback.xlsx')
 ```
 
 ### 2. Dependencies

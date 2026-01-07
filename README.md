@@ -105,10 +105,10 @@ jupyter notebook Final_Paper_Analysis_10Tables_5Figures.ipynb
 ORGANIZED_PAPER_CODE/
 │
 ├──  01_Final_Analysis_Code/
-│   ├── Final_Paper_Analysis_10Tables_5Figures.ipynb  ⭐ Main notebook
-│   ├── BACKUP_Original_fincode_formerged_2023-12-07.ipynb
-│   ├── BACKUP_Development_v1_2023-11-09.ipynb
-│   └── BACKUP_Development_v2_2023-11-09.ipynb
+│   ├── stock_buyback_analysis.ipynb  ⭐ Main notebook
+│   ├── Archive_Original_fincode_merged_2023-12-07.ipynb
+│   ├── Archive_Development_v1_2023-11-09.ipynb
+│   └── Archive_Development_v2_2023-11-09.ipynb
 │
 ├──  02_Paper_Results/
 │   ├── figures/        # 5 figures (docx format)
@@ -116,8 +116,8 @@ ORGANIZED_PAPER_CODE/
 │   └── output_data/    # CSV result files
 │
 ├──  03_Source_Data/
-│   ├── 코스피 자기주식취득및처분.xlsx    # KOSPI data
-│   └── 코스닥 자기주식취득및처분.xlsx    # KOSDAQ data
+│   ├── KOSPI_Stock_Buyback.xlsx    # KOSPI data
+│   └── KOSDAQ_Stock_Buyback.xlsx   # KOSDAQ data
 │
 ├──  04_Documentation/
 │   ├── Code_Structure.md               # Detailed code documentation

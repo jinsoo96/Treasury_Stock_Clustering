@@ -21,8 +21,8 @@ ORGANIZED_PAPER_CODE/
 │   └── output_data/      # CSV result files
 │
 ├── 03_Source_Data/
-│   ├── 코스피 자기주식취득및처분.xlsx    # KOSPI raw data
-│   ├── 코스닥 자기주식취득및처분.xlsx    # KOSDAQ raw data
+│   ├── KOSPI_Stock_Buyback.xlsx    # KOSPI raw data
+│   ├── KOSDAQ_Stock_Buyback.xlsx   # KOSDAQ raw data
 │   └── final_data_summary.csv
 │
 └── 04_Documentation/

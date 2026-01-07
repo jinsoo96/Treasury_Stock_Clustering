@@ -42,8 +42,8 @@ pip install pandas numpy scikit-learn xgboost matplotlib seaborn
 
 ### Required Data:
 Files should be in `03_Source_Data/`:
-- `코스피 자기주식취득및처분.xlsx`
-- `코스닥 자기주식취득및처분.xlsx`
+- `KOSPI_Stock_Buyback.xlsx`
+- `KOSDAQ_Stock_Buyback.xlsx`
 
 ---
 
