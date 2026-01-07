@@ -11,17 +11,17 @@ Research code repository for paper: *"Analysis of Stock Buyback Behavior in Kore
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This repository contains the complete analysis pipeline that generates **10 tables** and **5 figures** for our research paper on stock buyback behavior in the Korean stock market.
 
 ### Key Features
 
-- 🔍 **Behavior Classification**: Categorize firms into 4 buyback behavior types
-- 📊 **K-Means Clustering**: Group firms based on financial characteristics (k=3)
-- 🤖 **ML Prediction Models**: 4 models (AdaBoost, XGBoost, Gradient Boosting, Random Forest)
-- 📈 **Feature Importance Analysis**: Identify key predictors of buyback behavior
-- 💰 **Value Judgment**: Classify undervalued vs. fairly valued firms
+- **Behavior Classification**: Categorize firms into 4 buyback behavior types
+- **K-Means Clustering**: Group firms based on financial characteristics (k=3)
+- **ML Prediction Models**: 4 models (AdaBoost, XGBoost, Gradient Boosting, Random Forest)
+- **Feature Importance Analysis**: Identify key predictors of buyback behavior
+- **Value Judgment**: Classify undervalued vs. fairly valued firms
 
 ### Quick Stats
 
@@ -55,12 +55,12 @@ Random Forest:     84.9% accuracy
 
 ### Top Feature
 ```
-🥇 Total Assets (자산총계) - Most important predictor
+ Total Assets (자산총계) - Most important predictor
 ```
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -95,31 +95,31 @@ jupyter notebook Final_Paper_Analysis_10Tables_5Figures.ipynb
 # Run all cells: Kernel → Restart & Run All
 ```
 
-**⏱️ Execution Time**: ~3 minutes to generate all results
+** Execution Time**: ~3 minutes to generate all results
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ORGANIZED_PAPER_CODE/
 │
-├── 📊 01_Final_Analysis_Code/
+├──  01_Final_Analysis_Code/
 │   ├── Final_Paper_Analysis_10Tables_5Figures.ipynb  ⭐ Main notebook
 │   ├── BACKUP_Original_fincode_formerged_2023-12-07.ipynb
 │   ├── BACKUP_Development_v1_2023-11-09.ipynb
 │   └── BACKUP_Development_v2_2023-11-09.ipynb
 │
-├── 📈 02_Paper_Results/
+├──  02_Paper_Results/
 │   ├── figures/        # 5 figures (docx format)
 │   ├── tables/         # 10 tables (docx format)
 │   └── output_data/    # CSV result files
 │
-├── 💾 03_Source_Data/
+├──  03_Source_Data/
 │   ├── 코스피 자기주식취득및처분.xlsx    # KOSPI data
 │   └── 코스닥 자기주식취득및처분.xlsx    # KOSDAQ data
 │
-├── 📚 04_Documentation/
+├──  04_Documentation/
 │   ├── Code_Structure.md               # Detailed code documentation
 │   └── Paper_Output_Mapping.md         # Cell-to-output mapping
 │
@@ -142,7 +142,7 @@ ORGANIZED_PAPER_CODE/
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Data Collection
 - **Source**: Korea Exchange (KRX)
@@ -182,7 +182,7 @@ Raw Data → Preprocessing → Feature Selection → Clustering (K-Means, k=3)
 
 ---
 
-## 📊 Paper Outputs
+## Paper Outputs
 
 ### Tables (10)
 
@@ -209,7 +209,7 @@ Raw Data → Preprocessing → Feature Selection → Clustering (K-Means, k=3)
 
 ---
 
-## 💻 Code Example
+## Code Example
 
 ```python
 # Load and preprocess data
@@ -235,7 +235,7 @@ importance = model.feature_importances_
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 ### Python Packages
 
@@ -258,7 +258,7 @@ jupyter>=1.0.0
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 ### 1. Firm Clustering
 - Three distinct clusters identified based on financial characteristics
@@ -280,7 +280,7 @@ jupyter>=1.0.0
 
 ---
 
-## 🛠️ Customization
+## Customization
 
 ### Change Number of Clusters
 
@@ -319,7 +319,7 @@ models['SVM'] = SVC(random_state=0)
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -370,46 +370,28 @@ in the Software without restriction...
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- **Data Source**: Korea Exchange (KRX)
+- **Data Source**: TS2000 (KRX)
 - **Libraries**: scikit-learn, XGBoost, pandas, matplotlib
 - **Inspiration**: Research on corporate financial behavior
 - **Contributors**: [List your team members]
 
 ---
 
-## 📞 Contact
+## Contact
 
 - **Author**: [Your Name]
 - **Email**: your.email@example.com
 - **Institution**: [Your University/Company]
 - **Paper**: [Link to published paper]
 
-### Links
-
-- 🌐 [Project Homepage](https://yourproject.com)
-- 📄 [Paper (PDF)](https://paper-link.com)
-- 💬 [Discussion Forum](https://forum-link.com)
-- 🐛 [Issue Tracker](https://github.com/yourusername/repo/issues)
 
 ---
 
-## ⭐ Star History
+## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yourusername/stock-buyback-analysis&type=Date)](https://star-history.com/#yourusername/stock-buyback-analysis&Date)
-
----
-
-## 📌 Project Status
-
-| Stage | Status |
-|-------|--------|
-| Data Collection | ✅ Complete |
-| Analysis Code | ✅ Complete |
-| Paper Writing | ✅ Complete |
-| Code Documentation | ✅ Complete |
-| Publication | 📝 In Progress |
 
 ---
 
@@ -423,7 +405,7 @@ in the Software without restriction...
 
 ---
 
-## 📚 Related Projects
+## Related Projects
 
 - [Corporate Finance Analysis Toolkit](https://github.com/example/toolkit)
 - [Korean Stock Market Data](https://github.com/example/krx-data)
@@ -431,26 +413,18 @@ in the Software without restriction...
 
 ---
 
-## 🎓 Educational Use
+## Educational Use
 
 This repository is suitable for:
 
-- 📖 **Learning** machine learning in finance
-- 🎯 **Teaching** clustering and classification
-- 🔬 **Research** on corporate behavior
-- 💼 **Practice** data science workflows
+- **Learning** machine learning in finance
+- **Teaching** clustering and classification
+- **Research** on corporate behavior
+- **Practice** data science workflows
 
 ---
 
-<div align="center">
 
-### ⭐ Found this helpful? Star this repo!
-
-**Made with ❤️ for finance research**
-
-[⬆ Back to Top](#-stock-buyback-analysis---korean-market)
-
-</div>
 
 ---
 
