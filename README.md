@@ -368,35 +368,11 @@ in the Software without restriction...
 
 ## Contact
 
-- **Author**: [Your Name]
-- **Email**: your.email@example.com
-- **Institution**: [Your University/Company]
+- **Author**: [Kim Jin Soo]
+- **Email**: wlstn010203@khu.ac.kr
+- **Institution**: [Kyoung-Hee university/Smart Lab]
 - **Paper**: [Link to published paper]
 
-
----
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/stock-buyback-analysis&type=Date)](https://star-history.com/#yourusername/stock-buyback-analysis&Date)
-
----
-
-## 🔮 Future Work
-
-- [ ] Extend analysis to other Asian markets
-- [ ] Incorporate real-time data updates
-- [ ] Develop web dashboard for visualization
-- [ ] Add deep learning models (LSTM, Transformer)
-- [ ] Publish as Python package
-
----
-
-## Related Projects
-
-- [Corporate Finance Analysis Toolkit](https://github.com/example/toolkit)
-- [Korean Stock Market Data](https://github.com/example/krx-data)
-- [ML for Finance](https://github.com/example/ml-finance)
 
 ---
 
