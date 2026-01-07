@@ -4,9 +4,9 @@ This folder contains the final analysis code that generates all paper results.
 
 ---
 
-## 📌 Files in This Folder
+## Files in This Folder
 
-### ⭐ Final_Paper_Analysis_10Tables_5Figures.ipynb
+### stock_buyback_analysis.ipynb
 **THE MAIN FILE - Use this to reproduce all paper results.**
 
 - **Purpose**: Generate all 10 tables and 5 figures for the paper
@@ -23,69 +23,19 @@ This folder contains the final analysis code that generates all paper results.
 
 ---
 
-### 📄 Archive_Original_fincode_merged_2023-12-07.ipynb
-**Original analysis code (archived)**
-
-- **Purpose**: Historical archive of the original analysis
-- **Structure**: 137 cells (61 executed)
-- **Status**: Original version, contains development artifacts
-- **Use case**: Reference for development history
-
-**Contains:**
-- All original code including experimental cells
-- Development comments and notes
-- Some duplicate or redundant cells
-- Test code and debugging output
-
----
-
-### 📄 Archive_Development_v1_2023-11-09.ipynb
-**Development version 1 (archived)**
-
-- **Date**: November 9, 2023
-- **Original file**: 11_6.ipynb
-- **Structure**: 72 cells (37 executed)
-- **Status**: Intermediate development version
-
-**Key features:**
-- Early clustering analysis implementation
-- Initial ML model experiments
-- Logistic Regression, Random Forest, XGBoost, Gradient Boosting
-- Some results differ from final version
-
----
-
-### 📄 Archive_Development_v2_2023-11-09.ipynb
-**Development version 2 (archived)**
-
-- **Date**: November 9, 2023
-- **Original file**: 11_7.ipynb
-- **Structure**: 69 cells (36 executed)
-- **Status**: Alternative intermediate version
-
-**Key features:**
-- Similar structure to v1
-- Different parameter choices
-- Alternative analysis approaches
-- Comparison with v1 for robustness
-
----
-
-## 🎯 Which File Should I Use?
+## Which File Should I Use?
 
 | Task | Recommended File | Reason |
 |------|------------------|--------|
-| **Reproduce paper results** | Final_Paper_Analysis... | ✅ Clean, documented, complete |
-| **Understand methodology** | Final_Paper_Analysis... | ✅ Clear structure, English headers |
-| **Modify analysis** | Final_Paper_Analysis... | ✅ Minimal cells, easy to change |
-| **Check original code** | Archive_Original... | Reference only |
-| **Study development** | Archive_Development... | Historical interest only |
+| **Reproduce paper results** | stock_buyback_analysis.ipynb | ✅ Clean, documented, complete |
+| **Understand methodology** | stock_buyback_analysis.ipynb | ✅ Clear structure, English headers |
+| **Modify analysis** | stock_buyback_analysis.ipynb | ✅ Minimal cells, easy to change |
 
-**Bottom line: Use `Final_Paper_Analysis_10Tables_5Figures.ipynb` for everything.**
+**Bottom line: Use `stock_buyback_analysis.ipynb` for everything.**
 
 ---
 
-## 📊 What Does the Main File Generate?
+## What Does the Main File Generate?
 
 ### Tables (10):
 1. Descriptive statistics
@@ -114,11 +64,11 @@ This folder contains the final analysis code that generates all paper results.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Open the notebook:
 ```bash
-jupyter notebook Final_Paper_Analysis_10Tables_5Figures.ipynb
+jupyter notebook stock_buyback_analysis.ipynb
 ```
 
 ### 2. Run all cells:
@@ -135,7 +85,7 @@ Kernel → Restart & Run All
 
 ---
 
-## 📖 Code Structure
+## Code Structure
 
 The main notebook has 11 clearly marked sections:
 
@@ -181,7 +131,7 @@ Each section has:
 
 ---
 
-## 🔧 Key Configurations
+## Key Configurations
 
 ### Clustering:
 ```python
@@ -217,17 +167,17 @@ stratify = True         # Stratified sampling
 
 ---
 
-## 📝 File Comparison
+## File Information
 
-| Metric | Final | Archive_Original | Archive_Dev_v1 | Archive_Dev_v2 |
-|--------|-------|-----------------|---------------|---------------|
-| **Cells** | 52 | 137 | 72 | 69 |
-| **Code cells** | 41 | 61 | 37 | 36 |
-| **English headers** | ✅ Yes | ❌ No | ❌ No | ❌ No |
-| **Clean structure** | ✅ Yes | ❌ No | ❌ No | ❌ No |
-| **Complete outputs** | ✅ Yes | ✅ Yes | ⚠️ Partial | ⚠️ Partial |
-| **Date** | 2026-01-07 | 2023-12-07 | 2023-11-09 | 2023-11-09 |
-| **Recommended** | ⭐⭐⭐⭐⭐ | ⭐ | ⭐ | ⭐ |
+| Metric | Final |
+|--------|-------|
+| **Cells** | 52 |
+| **Code cells** | 41 |
+| **English headers** | ✅ Yes |
+| **Clean structure** | ✅ Yes |
+| **Complete outputs** | ✅ Yes |
+| **Date** | 2026-01-07 |
+| **Recommended** | ⭐⭐⭐⭐⭐ |
 
 ---
 
@@ -252,7 +202,7 @@ Some column names remain in Korean (original data format).
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Problem: Cells fail to execute
 - **Solution**: Run cells sequentially from Cell 0
@@ -272,7 +222,7 @@ Some column names remain in Korean (original data format).
 
 ---
 
-## 📚 Additional Documentation
+## Additional Documentation
 
 For more details, see:
 - `../README.md` - Main repository overview
@@ -282,7 +232,7 @@ For more details, see:
 
 ---
 
-## ✅ Verification Checklist
+## Verification Checklist
 
 Before using the notebook:
 - [ ] Python 3.8+ installed
