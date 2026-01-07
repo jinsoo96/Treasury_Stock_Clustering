@@ -23,6 +23,8 @@ wheels/
 # Jupyter Notebook
 .ipynb_checkpoints
 *.ipynb_checkpoints
+# Archive notebook files (backup/development versions)
+01_Final_Analysis_Code/Archive_*.ipynb
 
 # Virtual environments
 venv/
