@@ -66,7 +66,7 @@ logs/
 tmp/
 temp/
 *.tmp
-
+QUICK_START_GUIDE.md
 # Output files (optional - uncomment if you don't want to commit outputs)
 # 02_Paper_Results/figures/*.png
 # 02_Paper_Results/figures/*.jpg
