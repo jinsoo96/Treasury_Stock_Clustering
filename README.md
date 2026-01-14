@@ -325,21 +325,6 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{stockbuyback2023,
-  title={Analysis of Stock Buyback Behavior in Korean Stock Market},
-  author={Your Name and Co-authors},
-  journal={Journal Name},
-  year={2023},
-  publisher={Publisher Name}
-}
-```
-
----
 
 ## License
 
@@ -348,7 +333,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2023 [Your Name]
+Copyright (c) 2023 Jinsoo96
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
