@@ -362,7 +362,7 @@ in the Software without restriction...
 - **Data Source**: TS2000 (KRX)
 - **Libraries**: scikit-learn, XGBoost, pandas, matplotlib
 - **Inspiration**: Research on corporate financial behavior
-- **Contributors**: [Bae Hwan Suk, Kim Jin Soo]
+- **Contributors**: [Bae Hwan Seok, Kim Jin Soo]
 
 ---
 
